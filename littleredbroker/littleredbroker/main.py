@@ -1,6 +1,6 @@
-from fastapi import FastAPI, Header, HTTPException
+from fastapi import FastAPI
 
-from .routers import bigbluebutton_api, littleredbroker
+from littleredbroker.routers import bigbluebutton_api, littleredbroker
 
 app = FastAPI()
 
